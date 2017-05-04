@@ -19,7 +19,7 @@ sentence = "I couldn't believe that I could actually understand what I was readi
 
 print(_typoglycemia_mine(sentence))
 
-
 """
 I c'lnodut beelvie that I cloud alutalcy uarnesndtd what I was rdnieag : the pnmnoaehel pewor of the hmuan mind .
 """
+aa
