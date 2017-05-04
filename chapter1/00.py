@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-def strReverse(str):
+def _strReverse_mine(str):
     return str[::-1]
 
 str = 'stressed'
