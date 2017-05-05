@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 def _get_txtlength_mine(txt):
-    f = open(txt)
+    f = open(txt, "r")
     return len(f.readlines())
 
 txt = 'hightemp.txt'
