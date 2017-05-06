@@ -31,3 +31,6 @@ hightemp.txtは，日本の最高気温の記録を「都道府県」「地点�
 
 ##### 19. 各行の1コラム目の文字列の出現頻度を求め，出現頻度の高い順に並べる
 各行の1列目の文字列の出現頻度を求め，その高い順に並べて表示せよ．確認にはcut, uniq, sortコマンドを用いよ．  
+
+##### hightemp.txt
+https://gist.githubusercontent.com/tamaliver/ced0a151da77a89ccdfb/raw/cbb1563e0fd810fa6181ad0e7a39acda365998ce/%25E8%25A8%2580%25E8%25AA%259E%25E5%2587%25A6%25E7%2590%2586100%25E6%259C%25AC%25E3%2583%258E%25E3%2583%2583%25E3%2582%25AF%25202015%2520%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0%25EF%25BC%2588hightemp.txt%25EF%25BC%2589

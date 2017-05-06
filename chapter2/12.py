@@ -18,3 +18,6 @@ txt2 = "col2.txt"
 with open(txt, "r") as f:
     extractColumn(f)
     f.close()
+
+# cut -f 1 hightemp.txt > col1_cut.txt
+# cut -f 2 hightemp.txt > col2_cut.txt
