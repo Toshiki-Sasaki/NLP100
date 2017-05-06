@@ -20,3 +20,5 @@ txt2 = "col2.txt"
 txt3 = "output_of_13.txt"
 
 mergeFile(txt1, txt2)
+
+# paste col1.txt col2.txt > output_of_13_paste.txt
