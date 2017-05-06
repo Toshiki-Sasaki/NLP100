@@ -1,5 +1,8 @@
 #!usr/bin/env python
 # -*- coding:utf-8 -*-
+
+# ファイルへの出力をしていないので解答としては微妙か?
+
 import sys
 
 def print_lines_Nsplit(N):
