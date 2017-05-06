@@ -83,4 +83,10 @@ $ split -l 2 test out.
 ```
 
 ### 17. １列目の文字列の異なり
-#### 
+#### sort コマンド
+行の並び替えができるコマンド
+参照: https://hydrocul.github.io/wiki/commands/sort.html
+
+#### uniq コマンド
+重複した行を1つにまとめるコマンド
+参照: https://hydrocul.github.io/wiki/commands/uniq.html#sort-count

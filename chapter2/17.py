@@ -2,7 +2,6 @@
 # -*- coding:utf-8 -*-
 import sys
 
-# 最終行を先頭にしてNこ
 def print_set_of_prefecture():
     f = open(txt, "r")
     prefectures = [line.split("\t")[0] for line in f.readlines()]
