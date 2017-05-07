@@ -90,3 +90,10 @@ $ split -l 2 test out.
 #### uniq コマンド
 重複した行を1つにまとめるコマンド
 参照: https://hydrocul.github.io/wiki/commands/uniq.html#sort-count
+
+### 19. 各行の1コラム目の文字列の出現頻度を求め，出現頻度の高い順に並べる
+#### collections.Counter
+参照: https://docs.python.jp/3/library/collections.html#collections.Counter
+
+#### collections.defaultdict
+参照: https://docs.python.jp/3/library/collections.html#collections.defaultdict

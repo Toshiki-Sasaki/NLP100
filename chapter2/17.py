@@ -1,6 +1,5 @@
 #!usr/bin/env python
 # -*- coding:utf-8 -*-
-import sys
 
 def print_set_of_prefecture():
     f = open(txt, "r")

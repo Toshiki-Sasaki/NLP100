@@ -1,6 +1,5 @@
 #!usr/bin/env python
 # -*- coding:utf-8 -*-
-import sys
 
 def sort_templature():
     f = open(txt, "r")
