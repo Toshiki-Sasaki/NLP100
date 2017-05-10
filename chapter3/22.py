@@ -18,6 +18,6 @@ for line in f:
     m = re.match(prog, line)
     if m:
         o.write(m.group(1) + "\n")
-    
+
 o.close()
 f.close()
