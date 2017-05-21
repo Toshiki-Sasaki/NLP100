@@ -5,7 +5,7 @@ import re
 import json
 
 input = "jawiki-country.json/jawiki-country.json"
-output = "jawiki-engrand.txt"
+output = "jawiki-england.txt"
 
 f = open(input, "r")
 o = open(output, "w")

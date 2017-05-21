@@ -3,8 +3,8 @@
 
 import re
 
-input = "jawiki-engrand.txt"
-output = "jawiki-engrand-mediafiles.txt"
+input = "jawiki-england.txt"
+output = "jawiki-england-mediafiles.txt"
 
 f = open(input, "r")
 o = open(output, "w")

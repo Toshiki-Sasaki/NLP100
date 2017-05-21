@@ -3,8 +3,8 @@
 
 import re 
 
-input = "jawiki-engrand.txt"
-output = "jawiki-engrand-category-names.txt"
+input = "jawiki-england.txt"
+output = "jawiki-england-category-names.txt"
 
 f = open(input, "r")
 o = open(output, "w")
