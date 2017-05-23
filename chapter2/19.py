@@ -5,7 +5,7 @@ def count_frequency():
     from collections import Counter
     f = open(txt, "r")
     lines = [line.split("\t")[0] for line in f.readlines()]
-    
+
     for i in Counter(lines).most_common():
         print(" ".join([i[0], str(i[1])]))
 
