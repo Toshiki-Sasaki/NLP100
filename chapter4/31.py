@@ -6,12 +6,10 @@ import json
 
 def extractVerbs(INPUT):
     D = []
-    j = 0
     for morpheme in INPUT:
         for i in morpheme:
             if i['pos'] == '動詞':
                 D.append(i['surface'])
-                j += 1
     return D
 
 if __name__ == '__main__':
