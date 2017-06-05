@@ -22,4 +22,3 @@ print(_typoglycemia_mine(sentence))
 """
 I c'lnodut beelvie that I cloud alutalcy uarnesndtd what I was rdnieag : the pnmnoaehel pewor of the hmuan mind .
 """
-aa
