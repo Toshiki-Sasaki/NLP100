@@ -6,15 +6,16 @@ import json
 
 def extractVerbs(INPUT):
     D = []
+    j=0
     for morpheme in INPUT:
         for i in morpheme:
-            if i['pos'] == '動詞':
-                D.append(i['base'])
+            if i['pos1'] == 'サ変接続':
+                D.append(i['surface'])
     return D
 
 if __name__ == '__main__':
     INPUT = 'neko.txt.mecab'
-    OUTPUT = 'results/neko_32.json'
+    OUTPUT = 'results/neko_33.json'
     d = p30.getMorphemeDict(INPUT)
     D = extractVerbs(d)
     #print(len(D))
