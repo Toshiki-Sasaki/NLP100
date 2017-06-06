@@ -5,12 +5,17 @@ import p30
 import json
 
 def extractNounJunc(INPUT):
-    w = []
+    W = []
     for morpheme in INPUT:
+        w = []
         for i in morpheme:
-            if i['surface'] == '名詞':
+            if i['pos'] == '名詞':
                 w.append(i['surface'])
-    return d
+            else:
+                if len(w) > 1:
+                    W.append(''.join(w)) #長さが2以上なら連接なのでappend
+                w = [] #名詞以外がきたら初期化
+    return W
 
 if __name__ == '__main__':
     INPUT = 'neko.txt.mecab'
