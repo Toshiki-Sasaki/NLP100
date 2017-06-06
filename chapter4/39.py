@@ -30,7 +30,7 @@ def zipf(D):
     plt.ylabel('出現頻度')
     plt.xscale('log')
     plt.yscale('log')
-    sns.set_palette('bright')
+    sns.set_palette('brightgit s')
     plt.scatter(rank, freq, s=15)
     plt.show()
 
