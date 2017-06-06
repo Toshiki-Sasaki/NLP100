@@ -4,7 +4,7 @@
 import p30
 import json
 
-def extractAofB(INPUT):
+def extractVerbs(INPUT):
     d = []
     # naiveな方法なので無駄があるコード
     for morpheme in INPUT:
@@ -19,9 +19,9 @@ def extractAofB(INPUT):
 
 if __name__ == '__main__':
     INPUT = 'neko.txt.mecab'
-    OUTPUT = 'results/neko_34.json'
+    OUTPUT = 'results/neko_35.json'
     d = p30.getMorphemeDict(INPUT)
-    D = extractAofB(d)
+    D = extractVerbs(d)
     print(len(D))
     print(D[0:10])
     o = open(OUTPUT, 'w')
