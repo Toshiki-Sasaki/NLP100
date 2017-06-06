@@ -84,3 +84,11 @@ initialize.py に記述
 ```
 
 ##### 37
+p37.pngに出力ファイルをおく
+日本語の文字化けの参考(Mac)
+https://openbook4.me/sections/1674
+
+##### 38
+p38.pngに出力ファイルをおく
+
+##### 39
